@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6026B0171E591794000752F8 /* figure.png in Resources */ = {isa = PBXBuildFile; fileRef = 6026B0161E591794000752F8 /* figure.png */; };
+		6026B0191E591BA4000752F8 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 6026B0181E591BA4000752F8 /* background.png */; };
 		63F18F2D1E52C23800E6B991 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F18F2C1E52C23800E6B991 /* AppDelegate.swift */; };
 		63F18F2F1E52C23800E6B991 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F18F2E1E52C23800E6B991 /* ViewController.swift */; };
 		63F18F321E52C23800E6B991 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63F18F301E52C23800E6B991 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6026B0161E591794000752F8 /* figure.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = figure.png; path = ../../figure.png; sourceTree = "<group>"; };
+		6026B0181E591BA4000752F8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../background.png; sourceTree = "<group>"; };
 		63F18F291E52C23800E6B991 /* BMI Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BMI Calculator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		63F18F2C1E52C23800E6B991 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63F18F2E1E52C23800E6B991 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -97,6 +101,8 @@
 		63F18F2B1E52C23800E6B991 /* BMI Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				6026B0181E591BA4000752F8 /* background.png */,
+				6026B0161E591794000752F8 /* figure.png */,
 				63F18F2C1E52C23800E6B991 /* AppDelegate.swift */,
 				63F18F2E1E52C23800E6B991 /* ViewController.swift */,
 				63F18F301E52C23800E6B991 /* Main.storyboard */,
@@ -233,8 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				63F18F371E52C23800E6B991 /* LaunchScreen.storyboard in Resources */,
+				6026B0191E591BA4000752F8 /* background.png in Resources */,
 				63F18F341E52C23800E6B991 /* Assets.xcassets in Resources */,
 				63F18F321E52C23800E6B991 /* Main.storyboard in Resources */,
+				6026B0171E591794000752F8 /* figure.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,10 +421,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -425,10 +435,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "BMI Calculator/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "fullerton.BMI-Calculator";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -505,6 +517,7 @@
 				63F18F531E52C23900E6B991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F18F541E52C23900E6B991 /* Build configuration list for PBXNativeTarget "BMI CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +526,7 @@
 				63F18F561E52C23900E6B991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		63F18F571E52C23900E6B991 /* Build configuration list for PBXNativeTarget "BMI CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +535,7 @@
 				63F18F591E52C23900E6B991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

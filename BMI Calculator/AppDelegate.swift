@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  BMI Calculator
 //
-//  Created by CampusUser on 2/13/17.
-//  Copyright © 2017 CampusUser. All rights reserved.
+//  Created by Van Do on 2/13/17.
+//  Copyright © 2017 Van Do. All rights reserved.
 //
 
 import UIKit
